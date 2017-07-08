@@ -26,8 +26,8 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.apache.shiro:shiro-spring-boot-web-starter')
-	compile('org.apache.shiro.samples.shiro-samples:*')
+	compile('org.apache.shiro:shiro-spring-boot-web-starter:1.4.0')
+	//compile group: 'org.apache.shiro', name: 'shiro-spring-boot-web-starter', version: '1.4.0'
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
