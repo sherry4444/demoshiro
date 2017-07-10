@@ -12,7 +12,6 @@ public class LoginController {
 
     @RequestMapping("/login.html")
     public String loginTemplate() {
-
         return "login";
     }
 

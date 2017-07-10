@@ -3,6 +3,7 @@ package com.example.demo;
 /**
  * Created by 74788 on 2017/7/8.
  */
+
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.realm.Realm;
@@ -61,6 +62,7 @@ public class WebApp { //NOPMD
 
     @Bean
     public Realm realm() {
+
         TextConfigurationRealm realm = new TextConfigurationRealm();
         realm.setUserDefinitions("joe.coder=password,user\n" +
                 "jill.coder=password,admin");

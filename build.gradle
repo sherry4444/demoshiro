@@ -24,8 +24,10 @@ repositories {
 }
 
 dependencies {
+	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.apache.shiro:shiro-spring-boot-web-starter:1.4.0')
 	//compile group: 'org.apache.shiro', name: 'shiro-spring-boot-web-starter', version: '1.4.0'
 	runtime('mysql:mysql-connector-java')
